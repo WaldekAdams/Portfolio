@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Site title</title>
-  <meta name="description" content="Description" />
+  <meta name="Portfolio" content="Portfolio Waldek-Adams" />
 
   <!-- Title -->
   <meta property="og:title" content="" />
@@ -27,87 +27,89 @@
 </head>
 
 <body>
-  <header>
-    <img src="" alt="">
-    <h1>Hey there! My name is Waldek and I’m an aspiring Frontend developer. </h1>
-    <p>You might be interested in checking the list of<a href="#">my skills</a> . Don’t forget to have a glimpse at <a
-        href="#"> my projects</a>. Currently I’m looking for a new challenges so if you have one - <a href="#">contact
+  <header class="header">
+    <img class="header--avatar" src="" alt="">
+    <h1 class="header--heading">Hey there! My name is Waldek and I’m an aspiring Frontend developer. </h1>
+    <p class="header--description">You might be interested in checking the list of<a class="header--link" href="#">my
+        skills</a> . Don’t forget to have a glimpse at <a class="header--link" href="#"> my projects</a>. Currently I’m
+      looking for a new challenges so if you have one - <a class="header--link" href="#">contact
         me 😊</a></p>
-    <a href="#">villon8@wp.pl</a>
+    <a class="header--email" href="#">villon8@wp.pl</a>
   </header>
-  <section>
-    <h2>My skills</h2>
-    <div>
-      <h3>Working knowledge</h3>
-      <ul>
-        <li>Semantic HTML5</li>
-        <li>Semantic HTML5</li>
-        <li>Semantic HTML5</li>
-        <li>Semantic HTML5</li>
-        <li>Semantic HTML5</li>
-        <li>Semantic HTML5</li>
+  <section class="main">
+    <h2 class="main--title">My skills</h2>
+    <div class="main__box">
+      <h3 class="main__box--title">Working knowledge</h3>
+      <ul class="main__box__list">
+        <li class="main__box__list--item">Semantic HTML5</li>
+        <li class="main__box__list--item">Semantic HTML5</li>
+        <li class="main__box__list--item">Semantic HTML5</li>
+        <li class="main__box__list--item">Semantic HTML5</li>
+        <li class="main__box__list--item">Semantic HTML5</li>
+        <li class="main__box__list--item">Semantic HTML5</li>
       </ul>
-      <h3>Know something about</h3>
-      <ul>
-        <li>CSS animations</li>
-        <li>Git</li>
-        <li>Working with API</li>
-        <li>Progresive web apps</li>
-        <li>Npm scripts</li>
-        <li>JavaScript ES6</li>
+      <h3 class="main__box--title">Know something about</h3>
+      <ul class="main__box__list">
+        <li class="main__box__list--item">CSS animations</li>
+        <li class="main__box__list--item">Git</li>
+        <li class="main__box__list--item">Working with API</li>
+        <li class="main__box__list--item">Progresive web apps</li>
+        <li class="main__box__list--item">Npm scripts</li>
+        <li class="main__box__list--item">JavaScript ES6</li>
       </ul>
-      <h3>Want to learn</h3>
-      <ul>
-        <li>React</li>
-        <li>Node JS</li>
-        <li>Webpack</li>
-        <li>Server side rendering</li>
-        <li>Gatsby</li>
-        <li>Typescript</li>
+      <h3 class="main__box--title">Want to learn</h3>
+      <ul class="main__box__list">
+        <li class="main__box__list--item">React</li>
+        <li class="main__box__list--item">Node JS</li>
+        <li class="main__box__list--item">Webpack</li>
+        <li class="main__box__list--item">Server side rendering</li>
+        <li class="main__box__list--item">Gatsby</li>
+        <li class="main__box__list--item">Typescript</li>
       </ul>
     </div>
   </section>
-  <section>
-    <h2>Recent projects</h2>
-    <p>I started my frontend developer path in 2019. Since then, I’ve built some projects. Here’s the list of the things
+  <section class="projects">
+    <h2 class="projects--title">Recent projects</h2>
+    <p class="projects--description">I started my frontend developer path in 2019. Since then, I’ve built some projects.
+      Here’s the list of the things
       I’ve done so far.</p>
-    <div>
-      <img src="" alt="">
-      <h4>Hangman game</h4>
-      <p>simple game with javascript my own design</p>
-      <div>
-        <a href="">demo</a>
-        <a href="">github</a>
+    <div class="projects__item">
+      <img class="projects__item--logo" src="" alt="">
+      <h4 class="projects__item--title">Hangman game</h4>
+      <p class="projects__item--description">simple game with javascript my own design</p>
+      <div class="projects__item__links">
+        <a class="projects__item__links--link" href="">demo</a>
+        <a class="projects__item__links--link" href="">github</a>
       </div>
     </div>
-    <div>
-      <img src="" alt="">
-      <h4>Simple Editor</h4>
-      <p>simple editor with local storage</p>
-      <div>
-        <a href="">demo</a>
-        <a href="">github</a>
+    <div class="projects__item">
+      <img class="projects__item--logo" src="" alt="">
+      <h4 class="projects__item--title">Simple Editor</h4>
+      <p class="projects__item--description">simple editor with local storage</p>
+      <div class="projects__item__links">
+        <a class="projects__item__links--link" href="">demo</a>
+        <a class="projects__item__links--link" href="">github</a>
       </div>
     </div>
-    <div>
-      <img src="" alt="">
-      <h4>Colors game</h4>
-      <p>remember colors - my first made game</p>
-      <div>
-        <a href="">demo</a>
-        <a href="">github</a>
+    <div class="projects__item">
+      <img class="projects__item--logo" src="" alt="">
+      <h4 class="projects__item--title">Colors game</h4>
+      <p class="projects__item--description">remember colors - my first made game</p>
+      <div class="projects__item__links">
+        <a class="projects__item__links--link" href="">demo</a>
+        <a class="projects__item__links--link" href="">github</a>
       </div>
     </div>
   </section>
-  <section>
-    <h2>Contact me</h2>
-    <p>I’m open for new opportunities. If you have one for me we should talk!</p>
-    <div>
-      <a href="">facebook</a>
-      <a href="">instagram</a>
-      <a href="">github</a>
+  <section class="contact">
+    <h2 class="contact--title">Contact me</h2>
+    <p class="contact--description">I’m open for new opportunities. If you have one for me we should talk!</p>
+    <div class="contact__links">
+      <a class="contact__links--link" href="">facebook</a>
+      <a class="contact__links--link" href="">instagram</a>
+      <a class="contact__links--link" href="">github</a>
     </div>
-    <a href="#">villon8@wp.pl</a>
+    <a class="contact--email" href="#">villon8@wp.pl</a>
   </section>
 
   <script src="js/main.js"></script>
