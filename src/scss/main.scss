@@ -69,6 +69,9 @@ body {
   line-height: 48px;
   color: #171F3F;
   margin-top: 156px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #CBD2D9;
+  padding-bottom: 12px;
   ;
 }
 
@@ -87,6 +90,7 @@ body {
     font-size: 32px;
     line-height: 44px;
     color: #171F3F;
+    letter-spacing: 1px;
   }
 
   &__list {
@@ -111,6 +115,7 @@ body {
     line-height: 48px;
     color: #171F3F;
     margin-bottom: 16px;
+    letter-spacing: 1px;
   }
 
   &--description {
@@ -119,5 +124,65 @@ body {
     font-size: 20px;
     line-height: 36px;
     color: #52606D;
+  }
+}
+
+.projects__list {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+.project__item {
+  height: 260px;
+  box-shadow: 0 0 10px 1px rgb(190, 190, 190);
+  border-radius: 2px;
+  position: relative;
+
+  &--title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #171F3F;
+    margin-left: 48px;
+
+  }
+
+  &--description {
+    margin-left: 48px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #bbbcbd;
+  }
+
+  &__links {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background: #f0efef;
+
+    &--link {
+      margin: 12px 40px 12px 0;
+      // margin-top: 18px;
+      // margin-right: 40px;
+      // margin-bottom: 18px;
+      text-decoration: none;
+      color: #0593FB;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 32px;
+
+      &:nth-child(1) {
+        border-right: 1px solid #52606D;
+        // margin-right: 20;
+        padding-right: 24px;
+      }
+    }
   }
 }
