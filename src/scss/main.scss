@@ -101,3 +101,23 @@ body {
     }
   }
 }
+
+.projects {
+  margin-top: 140px;
+
+  &--title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: #171F3F;
+    margin-bottom: 16px;
+  }
+
+  &--description {
+    width: 50%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #52606D;
+  }
+}
