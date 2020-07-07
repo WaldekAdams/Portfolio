@@ -178,6 +178,11 @@ body {
   box-shadow: 0 0 10px 1px rgb(190, 190, 190);
   border-radius: 2px;
   position: relative;
+  padding-top: 28px;
+
+  &--logo {
+    margin-left: 48px;
+  }
 
   &--title {
     font-weight: 600;
@@ -228,7 +233,7 @@ body {
 .contact {
   background: #171F3F;
   height: 360px;
-  padding-left: 200px;
+  padding-left: 12vw;
   padding-top: 56px;
 
   &--title {
