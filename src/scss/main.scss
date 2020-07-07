@@ -191,6 +191,22 @@ body {
 
 .contact {
   background: #171F3F;
-  height: 300px;
-  padding-left: 128px;
+  height: 360px;
+  padding-left: 200px;
+  padding-top: 56px;
+
+  &--title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: white;
+    margin-bottom: 18px;
+  }
+
+  &--description {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: white;
+  }
 }
