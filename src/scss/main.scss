@@ -73,12 +73,11 @@ body {
   letter-spacing: 2px;
   border-bottom: 1px solid #CBD2D9;
   padding-bottom: 12px;
-  ;
 }
 
 .main__box {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
 
 
 
@@ -103,6 +102,16 @@ body {
       font-size: 18px;
       line-height: 40px;
       color: #52606D;
+      list-style: none;
+      display: flex;
+
+      & p {
+        margin-left: 8px;
+      }
+
+      & img {
+        margin-right: 8px;
+      }
     }
   }
 }
@@ -208,5 +217,25 @@ body {
     font-size: 20px;
     line-height: 36px;
     color: white;
+  }
+
+  &--email {
+    color: #0593FB;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0593FB;
+  }
+
+  &__links {
+    margin-top: 26px;
+    margin-bottom: 36px;
+
+    &--link {
+      margin-right: 24px;
+    }
   }
 }
