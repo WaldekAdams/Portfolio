@@ -91,6 +91,33 @@ body {
     line-height: 44px;
     color: #171F3F;
     letter-spacing: 1px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 15%;
+      height: 3px;
+      background: #06C847;
+      margin-bottom: 10px;
+    }
+
+    &:nth-of-type(2)::before {
+      content: '';
+      display: block;
+      width: 15%;
+      height: 3px;
+      background: #653CAD;
+      margin-bottom: 10px;
+    }
+
+    &:nth-of-type(3)::before {
+      content: '';
+      display: block;
+      width: 15%;
+      height: 3px;
+      background: #2251CC;
+      margin-bottom: 10px;
+    }
   }
 
   &__list {
