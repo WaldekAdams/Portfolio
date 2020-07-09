@@ -210,6 +210,11 @@ body {
     justify-content: flex-end;
     background: #f0efef;
 
+    & svg {
+      margin-top: 16px;
+      margin-right: 6px;
+    }
+
     &--link {
       margin: 12px 40px 12px 0;
       // margin-top: 18px;
