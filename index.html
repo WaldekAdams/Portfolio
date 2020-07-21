@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Site title</title>
+  <meta name="Portfolio" content="Portfolio Waldek-Adams" />
+
+  <!-- Title -->
+  <meta property="og:title" content="" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="" />
+  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+  <meta property="og:url" content="" />
+  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="icon" type="image/png" href="assets/pwa/icons/icon-192x192.png" />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="header">
+      <img class="header--avatar" src="" alt="">
+      <h1 class="header--heading">Hey there! My name is Waldek and I’m an aspiring Frontend developer. </h1>
+      <p class="header--description">You might be interested in checking the list of <a class="header--link"
+          href="#skills">my
+          skills</a> . Don’t forget to have a glimpse at <a class="header--link" href="#projects"> my projects</a>.
+        Currently
+        I’m
+        looking for a new challenges so if you have one - <a class="header--link" href="#contact">contact
+          me 😊</a></p>
+      <a class="header--email" href="#">villon8@wp.pl</a>
+    </header>
+    <section class="main">
+      <h2 class="main--title" id="skills">My skills</h2>
+      <div class="main__box">
+        <h3 class="main__box--title">Working knowledge</h3>
+        <ul class="main__box__list green">
+          <li class="main__box__list--item">
+            <p>Semantic HTML5</p>
+          </li>
+          <li class="main__box__list--item">
+            <p>Flexbox</p>
+          </li>
+          <li class="main__box__list--item">
+            <p>Markdown</p>
+          </li>
+          <li class="main__box__list--item">
+            <p>JS:Local storage</p>
+          </li>
+          <li class="main__box__list--item">
+            <p>Figma</p>
+          </li>
+          <li class="main__box__list--item">
+            <p>CSS: grid</p>
+          </li>
+          <li class="main__box__list--item">
+            <p>SASS</p>
+          </li>
+        </ul>
+        <h3 class="main__box--title">Know something about</h3>
+        <ul class="main__box__list darkblue">
+          <li class="main__box__list--item">
+            <p> CSS animations</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> BEM</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> Git</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> Working with API</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> Progresive web apps</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> Npm scripts</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> JavaScript ES6</p>
+          </li>
+        </ul>
+        <h3 class="main__box--title">Want to learn</h3>
+        <ul class="main__box__list blue">
+          <li class="main__box__list--item">
+            <p> React</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> Node JS</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> Webpack</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> Server side rendering</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> Gatsby</p>
+          </li>
+          <li class="main__box__list--item">
+            <p> Typescript</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects--title">Recent projects</h2>
+      <p class="projects--description">I started my frontend developer path in 2019. Since then, I’ve built some
+        projects.
+        Here’s the list of the things
+        I’ve done so far.</p>
+      <div class="projects__list">
+        <div class="project__item">
+          <img class="project__item--logo" src="../assets/img/Github IconBlack.svg" alt="">
+          <h4 class="project__item--title">Hangman game</h4>
+          <p class="project__item--description">simple game with javascript my own design</p>
+          <div class="project__item__links">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M21.75 3.28125H2.25C1.83516 3.28125 1.5 3.61641 1.5 4.03125V15.6562C1.5 16.0711 1.83516 16.4062 2.25 16.4062H11.1562V19.0312H7.125C6.91875 19.0312 6.75 19.2 6.75 19.4062V20.5312C6.75 20.6344 6.83437 20.7188 6.9375 20.7188H17.0625C17.1656 20.7188 17.25 20.6344 17.25 20.5312V19.4062C17.25 19.2 17.0813 19.0312 16.875 19.0312H12.8438V16.4062H21.75C22.1648 16.4062 22.5 16.0711 22.5 15.6562V4.03125C22.5 3.61641 22.1648 3.28125 21.75 3.28125ZM20.8125 14.7188H3.1875V4.96875H20.8125V14.7188Z"
+                fill="#0593FB" />
+            </svg>
+            <a class="project__item__links--link" href="https://waldekadams.github.io/game-hangman---wisielec/">demo</a>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.0938 15.7734C12.0938 15.8766 12.1734 15.9609 12.2695 15.9609H16.6055C16.7016 15.9609 16.7812 15.8766 16.7812 15.7734V14.6484C16.7812 14.5453 16.7016 14.4609 16.6055 14.4609H12.2695C12.1734 14.4609 12.0938 14.5453 12.0938 14.6484V15.7734ZM7.52578 15.9164L12.0258 12.143C12.1148 12.068 12.1148 11.9297 12.0258 11.8547L7.52578 8.08359C7.49862 8.06049 7.46539 8.04567 7.43005 8.04089C7.39472 8.03611 7.35875 8.04157 7.32642 8.05662C7.29409 8.07168 7.26677 8.09569 7.24768 8.12581C7.22859 8.15594 7.21855 8.1909 7.21875 8.22656V9.69609C7.21875 9.75234 7.24219 9.80391 7.28672 9.83906L9.86016 12L7.28672 14.1609C7.26577 14.1785 7.24885 14.2003 7.23712 14.225C7.22539 14.2497 7.21912 14.2766 7.21875 14.3039V15.7734C7.21875 15.9328 7.40391 16.0195 7.52578 15.9164ZM20.625 2.625H3.375C2.96016 2.625 2.625 2.96016 2.625 3.375V20.625C2.625 21.0398 2.96016 21.375 3.375 21.375H20.625C21.0398 21.375 21.375 21.0398 21.375 20.625V3.375C21.375 2.96016 21.0398 2.625 20.625 2.625ZM19.6875 19.6875H4.3125V4.3125H19.6875V19.6875Z"
+                fill="#0593FB" />
+            </svg>
+            <a class="project__item__links--link"
+              href="https://github.com/WaldekAdams/game-hangman---wisielec">github</a>
+          </div>
+        </div>
+        <div class="project__item">
+          <img class="project__item--logo" src="../assets/img/Github IconBlack.svg" alt="">
+          <h4 class="project__item--title">Simple Editor</h4>
+          <p class="project__item--description">simple editor with local storage</p>
+          <div class="project__item__links">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M21.75 3.28125H2.25C1.83516 3.28125 1.5 3.61641 1.5 4.03125V15.6562C1.5 16.0711 1.83516 16.4062 2.25 16.4062H11.1562V19.0312H7.125C6.91875 19.0312 6.75 19.2 6.75 19.4062V20.5312C6.75 20.6344 6.83437 20.7188 6.9375 20.7188H17.0625C17.1656 20.7188 17.25 20.6344 17.25 20.5312V19.4062C17.25 19.2 17.0813 19.0312 16.875 19.0312H12.8438V16.4062H21.75C22.1648 16.4062 22.5 16.0711 22.5 15.6562V4.03125C22.5 3.61641 22.1648 3.28125 21.75 3.28125ZM20.8125 14.7188H3.1875V4.96875H20.8125V14.7188Z"
+                fill="#0593FB" />
+            </svg>
+            <a class="project__item__links--link"
+              href="https://waldekadams.github.io/branch-Test-LocalStorage-Test/">demo</a>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.0938 15.7734C12.0938 15.8766 12.1734 15.9609 12.2695 15.9609H16.6055C16.7016 15.9609 16.7812 15.8766 16.7812 15.7734V14.6484C16.7812 14.5453 16.7016 14.4609 16.6055 14.4609H12.2695C12.1734 14.4609 12.0938 14.5453 12.0938 14.6484V15.7734ZM7.52578 15.9164L12.0258 12.143C12.1148 12.068 12.1148 11.9297 12.0258 11.8547L7.52578 8.08359C7.49862 8.06049 7.46539 8.04567 7.43005 8.04089C7.39472 8.03611 7.35875 8.04157 7.32642 8.05662C7.29409 8.07168 7.26677 8.09569 7.24768 8.12581C7.22859 8.15594 7.21855 8.1909 7.21875 8.22656V9.69609C7.21875 9.75234 7.24219 9.80391 7.28672 9.83906L9.86016 12L7.28672 14.1609C7.26577 14.1785 7.24885 14.2003 7.23712 14.225C7.22539 14.2497 7.21912 14.2766 7.21875 14.3039V15.7734C7.21875 15.9328 7.40391 16.0195 7.52578 15.9164ZM20.625 2.625H3.375C2.96016 2.625 2.625 2.96016 2.625 3.375V20.625C2.625 21.0398 2.96016 21.375 3.375 21.375H20.625C21.0398 21.375 21.375 21.0398 21.375 20.625V3.375C21.375 2.96016 21.0398 2.625 20.625 2.625ZM19.6875 19.6875H4.3125V4.3125H19.6875V19.6875Z"
+                fill="#0593FB" />
+            </svg>
+            <a class="project__item__links--link"
+              href="https://github.com/WaldekAdams/branch-Test-LocalStorage-Test">github</a>
+          </div>
+        </div>
+        <div class="project__item">
+          <img class="project__item--logo" src="../assets/img/Github IconBlack.svg" alt="">
+          <h4 class="project__item--title">Colors game</h4>
+          <p class="project__item--description">remember colors - my first made game</p>
+          <div class="project__item__links">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M21.75 3.28125H2.25C1.83516 3.28125 1.5 3.61641 1.5 4.03125V15.6562C1.5 16.0711 1.83516 16.4062 2.25 16.4062H11.1562V19.0312H7.125C6.91875 19.0312 6.75 19.2 6.75 19.4062V20.5312C6.75 20.6344 6.83437 20.7188 6.9375 20.7188H17.0625C17.1656 20.7188 17.25 20.6344 17.25 20.5312V19.4062C17.25 19.2 17.0813 19.0312 16.875 19.0312H12.8438V16.4062H21.75C22.1648 16.4062 22.5 16.0711 22.5 15.6562V4.03125C22.5 3.61641 22.1648 3.28125 21.75 3.28125ZM20.8125 14.7188H3.1875V4.96875H20.8125V14.7188Z"
+                fill="#0593FB" />
+            </svg>
+            <a class="project__item__links--link" href="https://waldekadams.github.io/Project-1/">demo</a>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12.0938 15.7734C12.0938 15.8766 12.1734 15.9609 12.2695 15.9609H16.6055C16.7016 15.9609 16.7812 15.8766 16.7812 15.7734V14.6484C16.7812 14.5453 16.7016 14.4609 16.6055 14.4609H12.2695C12.1734 14.4609 12.0938 14.5453 12.0938 14.6484V15.7734ZM7.52578 15.9164L12.0258 12.143C12.1148 12.068 12.1148 11.9297 12.0258 11.8547L7.52578 8.08359C7.49862 8.06049 7.46539 8.04567 7.43005 8.04089C7.39472 8.03611 7.35875 8.04157 7.32642 8.05662C7.29409 8.07168 7.26677 8.09569 7.24768 8.12581C7.22859 8.15594 7.21855 8.1909 7.21875 8.22656V9.69609C7.21875 9.75234 7.24219 9.80391 7.28672 9.83906L9.86016 12L7.28672 14.1609C7.26577 14.1785 7.24885 14.2003 7.23712 14.225C7.22539 14.2497 7.21912 14.2766 7.21875 14.3039V15.7734C7.21875 15.9328 7.40391 16.0195 7.52578 15.9164ZM20.625 2.625H3.375C2.96016 2.625 2.625 2.96016 2.625 3.375V20.625C2.625 21.0398 2.96016 21.375 3.375 21.375H20.625C21.0398 21.375 21.375 21.0398 21.375 20.625V3.375C21.375 2.96016 21.0398 2.625 20.625 2.625ZM19.6875 19.6875H4.3125V4.3125H19.6875V19.6875Z"
+                fill="#0593FB" />
+            </svg>
+            <a class="project__item__links--link" href="https://github.com/WaldekAdams/Project-1">github</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <section class="contact" id="contact">
+    <h2 class="contact--title">Contact me</h2>
+    <p class="contact--description">I’m open for new opportunities. If you have one for me we should talk!</p>
+    <div class="contact__links">
+      <a class="contact__links--link" href=""><img src="../assets/img/FB Icon.svg" alt="facebook logo"></a>
+      <a class="contact__links--link" href=""><img src="../assets/img/Github Icon.svg" alt="github logo"></a>
+      <a class="contact__links--link" href=""><img src="../assets/img/Instagram Icon.svg" alt="instagram logo"></a>
+    </div>
+    <a class="contact--email" href="#">villon8@wp.pl</a>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
