@@ -128,6 +128,22 @@ body {
 
   }
 
+  &__list.darkblue p::before {
+    content: url(../assets/img/check-circle2.svg);
+    display: inline-block;
+    margin-right: 24px;
+
+
+  }
+
+  &__list.blue p::before {
+    content: url(../assets/img/check-circle.svg);
+    display: inline-block;
+    margin-right: 24px;
+
+
+  }
+
   &__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
