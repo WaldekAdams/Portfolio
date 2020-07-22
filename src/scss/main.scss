@@ -5,6 +5,7 @@
 
 html {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 *,
@@ -26,7 +27,7 @@ body {
     margin: 40px auto;
   }
 
-  @media(orientation: landscape) {
+  @media(orientation: landscape) and (max-width: 640px) {
     width: 80vw;
     margin: 40px auto;
   }
@@ -39,7 +40,7 @@ body {
     color: #171F3F;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2.8rem;
     line-height: 56px;
     margin-bottom: 16px;
   }
@@ -47,7 +48,7 @@ body {
   &--description {
     width: 50%;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 36px;
     color: #52606D;
   }
@@ -56,14 +57,14 @@ body {
     color: #0593FB;
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 36px
   }
 
   &--email {
     display: inline-block;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 32px;
     color: #0593FB;
     padding-bottom: 8px;
@@ -75,7 +76,7 @@ body {
 
 .main--title {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 48px;
   color: #171F3F;
   margin-top: 156px;
@@ -99,7 +100,7 @@ body {
 
   &--title {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 44px;
     color: #171F3F;
     letter-spacing: 1px;
@@ -166,7 +167,7 @@ body {
 
     &--item {
       font-weight: normal;
-      font-size: 18px;
+      font-size: 1.12rem;
       line-height: 40px;
       color: #52606D;
       list-style: none;
@@ -189,7 +190,7 @@ body {
 
   &--title {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 48px;
     color: #171F3F;
     margin-bottom: 16px;
@@ -199,7 +200,7 @@ body {
   &--description {
     width: 50%;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 36px;
     color: #52606D;
   }
@@ -230,7 +231,7 @@ body {
 
   &--title {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 36px;
     color: #171F3F;
     margin-left: 48px;
@@ -240,7 +241,7 @@ body {
   &--description {
     margin-left: 48px;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.12rem;
     line-height: 32px;
     color: #bbbcbd;
   }
@@ -267,7 +268,7 @@ body {
       text-decoration: none;
       color: #0593FB;
       font-weight: 500;
-      font-size: 18px;
+      font-size: 1.12rem;
       line-height: 32px;
 
       &:nth-child(1) {
@@ -296,7 +297,7 @@ body {
 
   &--title {
     font-weight: 600;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 44px;
     color: white;
     margin-bottom: 18px;
@@ -304,7 +305,7 @@ body {
 
   &--description {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 36px;
     color: white;
   }
@@ -312,7 +313,7 @@ body {
   &--email {
     color: #0593FB;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 32px;
     text-decoration: none;
     letter-spacing: 2px;
